@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Marvel Fan Survey Form</title>
+    </head>
+    <body> <div>
+      <h1 id="title">Avanger Application Form</h1>
+      <p id="description">Fill the form to become an avenger</p></div>
+<form id="survey-form">
+<fieldset> 
+  <label id="name-label"> Avanger Name: <input placeholder="What's your superhero alias?" type="text" id="name" required/> </label>
+ 
+  <label id="email-label"> Email: <input placeholder="Your contact in case of danger" type="email" id="email" required/> </label>
+ 
+  <label id="number-label"> Years of experience: <input placeholder="years" type="number" id="number" min="3" max="10"/> </label>
+</fieldset>
+
+<hr>
+<fieldset>
+<label>Who is your favorite Avanger?: <select id="dropdown">
+  <option value="">Select one</option>
+  <option value="1">Iron Man</option>
+  <option value="2">The Hulk</option>
+  <option value="3">Thor</option>
+  <option value="4">Captain America</option>
+  <option value="5">Vision</option>
+  <option value="6">Black Panther</option>
+</select>
+<label class="iron"> Do you think Iron Man will ever come back? <br>
+  <input type="radio" name="come-back" value="yes" class="inline"/> Yes
+  <input type="radio" name="come-back" value="no"class="inline"/> No
+  <input type="radio" name="come-back" value="ns"class="inline"/> Not Sure
+</label>
+</fieldset>
+<hr>
+<fieldset><label>What is your favorite Dr Strange Movie? <br>
+<input type="checkbox" value="1" /> Doctor Strange <br>
+<input type="checkbox" value="2" /> Doctor Strange in the Multiverse of Madness
+<br><input type="checkbox" value="3" /> I don't like Doctor Strange <br>
+
+
+</label></fieldset>
+<hr>
+<fieldset>
+  <label> What is your superpower?
+    <textarea></textarea>
+</fieldset><hr>
+<fieldset><input type="submit" value="Submit" id="submit" /></fieldset>
+</form>
+
+
+
+
+    </body>
+    </html>
