@@ -1,0 +1,62 @@
+body{
+  background-color: black ;
+  background-image:url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/avas_p_0189_ss13_copy.jpg");
+  color: white;
+  font-size: 16px;
+  font-family: Tahoma;
+  margin: 50px;
+}
+div {
+  background-color: rgb(80,0,100);
+  padding: 5px
+  
+} 
+h1,p{
+  text-align:center;
+  margin: auto;
+}
+p{
+  padding-bottom: 4px;
+}
+form {
+  border: 10px solid rgb(80,0,100);
+  background-color: rgb(170,0,0);
+  margin: 0 auto;
+  padding-bottom: 2em;
+  
+}
+hr {
+  border:5px double rgb(80,0,100)
+}
+fieldset{
+  border:0;
+  
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+input, textarea, select{
+ 
+  margin: 10px 0 0 0;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.inline {
+  width: unset;
+  margin: 0 0 0 0;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  
+  width: unset;
+  margin: 0 1 0 1;
+  
+}
